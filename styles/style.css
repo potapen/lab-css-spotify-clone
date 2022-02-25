@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maxWidth{
+    width: 100%;
+}
+.paddingDiv{
+    height: 50px;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+}
+
+.divOfLinks{
+    display:flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.divOfLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.imageContainer {
+    position: relative;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#whatsOnSpotify{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0%;
+}
+h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color:#00B172;
+}
+
+#tripleDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+#tripleDiv > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 30%;
+}
+
+#tripleDiv > div > article{
+    width: 60%;
+}
+#whatsOnSpotify img{
+    width: 30%;
+}
+
+#greenSection{
+    background-color: #00B172;
+    width: 95%;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+h4{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+h5{
+    font-size: 2rem;
+    margin: 30px 0px;
+}
+.flowingText{
+    width: 45%;
+    padding-left: 5%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.flowingText article{
+    width: 60%;
+}
+
+#whiteIcon{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 10%;
+}
+
+#appImage{
+    position: absolute;
+    height: 80%;
+    right: 5%;
+    top: 10%;
+}
